@@ -1,0 +1,80 @@
+[
+    {
+        "faculty": "engeneering",
+        "subjects": [
+            {
+                "name": "math",
+                "teachers": [
+                    "Shirali",
+                    "Larisa"
+                ]
+            },
+            {
+                "name": "java",
+                "teachers": [
+                    "Timur",
+                    "Nauryzbay"
+                ]
+            },
+            {
+                "name": "ict",
+                "teachers": [
+                    "Gulnaz",
+                    "Otegen"
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "law",
+        "subjects": [
+            {
+                "name": "turkish",
+                "teachers": [
+                    "Mehmet",
+                    "Ridvan",
+                    "Yilmaz"
+                ]
+            },
+            {
+                "name": "pe",
+                "teachers": [
+                    "Omirbek",
+                    "Zhanbolat"
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "edu",
+        "subjects": [
+            {
+                "name": "python",
+                "teachers": [
+                    "Alex"
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "buiseness",
+        "subjects": [
+            {
+                "name": "economy",
+                "teachers": [
+                    "John",
+                    "Micheal",
+                    "Johanatan",
+                    "Peter"
+                ]
+            },
+            {
+                "name": "History",
+                "teachers": [
+                    "Azat",
+                    "Bolat"
+                ]
+            }
+        ]
+    }
+]
