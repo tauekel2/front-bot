@@ -17,7 +17,9 @@
         <p class="fs-1 text-center">Write your feedback anonymous</p>
         <p class="fs-3 text-center">Choose a teacher:</p>
         <form method="post" action="https://back-bot.vercel.app/todos">
-            <div class="g-recaptcha" data-sitekey="6LclFlUjAAAAAGzr2OYS7XfEj1YsRWj5nPZbLOvu"></div>
+            <div class="g-recaptcha" data-sitekey="6LclFlUjAAAAAGzr2OYS7XfEj1YsRWj5nPZbLOvu"
+                data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
+                data-error-callback="onRecaptchaError"></div>
             <select class="form-select" name="faculty" id="faculty" onchange="forFaculty(this)" required>
                 <option value="">Faculty</option>
                 <option value="engeneering">engeneering</option>
